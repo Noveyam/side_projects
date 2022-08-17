@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    background-image: url("https://assets.codepen.io/6060109/ZigZag.png");
+  }
+  
+  body {
+    min-width: 100%;
+    min-height: 100vh;
+  }
+  
+  .outer-box {
+    position: relative;
+    width: 90%;
+    height: 700px;
+    background-color: white;
+    margin: 70px auto;
+    border-radius: 5px;
+    box-shadow: 0px 40px 40px -20px #3C7B61;
+  }
+  
+  #close-button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  
+  .inner-box {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 55px 45px 0px 45px;
+  }
+  
+  h1 {
+    color: #2F463D;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  inner-box > p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+  }
+  
+  .inner-box > h1 {
+    margin: 20px auto;
+  }
+  
+  .food-selector {
+    width: 100%;
+    background-color: #F0FFF5;
+    border-radius: 5px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  
+  
+  
