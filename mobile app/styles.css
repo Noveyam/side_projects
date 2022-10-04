@@ -11,6 +11,8 @@
   body {
     min-width: 100%;
     min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   .main {
@@ -23,7 +25,7 @@
     gap: 30px;
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 992px) {
     .main {
       display: block;
     }
@@ -125,11 +127,13 @@
   }
 
   .outer-box:first-child .eat-btn:nth-of-type(1) {
-    background-color: grey;
+    background-color: #E0E0E0;
+    margin-top: 100px;
   }
 
   .outer-box:last-child .eat-btn:nth-of-type(1) {
-    background-color: grey;
+    background-color: #E0E0E0;
+    margin-top: 100px;
   }
 
   .eat-btn:hover {
