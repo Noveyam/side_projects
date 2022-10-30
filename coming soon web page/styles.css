@@ -1,4 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
+}
+
+body, html {
+    height: 800px;
+    width: 380px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
